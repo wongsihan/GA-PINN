@@ -6,7 +6,8 @@ from model import Net, Model
 from physics import x_f_loss_fun_A1, x_f_loss_fun_A2, loss_b1, loss_b2, loss_b3, loss_b4, loss_b57, loss_b68, exact_A1, exact_A2
 from config import *
 
-if __name__ == '__main__':
+def main():
+    """主程序函数"""
     # test data测试数据的定义域
     # A1 test data
     x1 = np.expand_dims(np.linspace(length_left, length_right, 128), axis=1)
@@ -141,3 +142,6 @@ if __name__ == '__main__':
     model.train()   # 模型训练
 
     model.save(r"D:\文稿\发表论文\2024MSSP\实验数据\20241230\save")
+
+if __name__ == '__main__':
+    main()
