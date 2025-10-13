@@ -240,3 +240,4 @@ def draw_Ady_exact_points(points, move_count, pic_name, N_points=None, show_exac
     plt.xlabel('x', fontsize=14, fontname = 'Times New Roman')
     plt.savefig(filename)
     plt.close()
+

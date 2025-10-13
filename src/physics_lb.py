@@ -2,7 +2,6 @@ import torch
 import numpy as np
 from torch.autograd import Variable, grad
 from utils_lb import is_cuda, tensor
-from config_lb import beta, c, d, b, K, br, Pi, u0, alpha
 
 # 计算A1区域损失的函数
 def x_f_loss_fun_A1(x, train_U):

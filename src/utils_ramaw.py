@@ -34,3 +34,4 @@ def random_fun(num, lb, ub):
 def get_device():
     """返回当前设备"""
     return device
+

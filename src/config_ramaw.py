@@ -65,3 +65,4 @@ AM_count = 20
 AW_lr = 0.001
 pic_name = "RAMAW-PINN-A3S200C5"
 model_name = "model_RAMAW-A3S200C5-PINN.pt"
+

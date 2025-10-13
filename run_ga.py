@@ -20,3 +20,4 @@ if __name__ == '__main__':
     print("开始运行GA-PINN训练程序...")
     print("=" * 50)
     main()
+
