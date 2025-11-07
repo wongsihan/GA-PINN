@@ -1,6 +1,6 @@
 # GA-PINN: Gradient-Aligned Physics-Informed Neural Network
 
-A gradient-aligned physics-informed neural network for performance analysis of permanent magnet eddy current devices under complex operating conditions.
+Gradient-aligned physics-informed neural network for performance analysis of permanent magnet eddy current devices under complex operating conditions.
 
 ## 📖 Citation
 
